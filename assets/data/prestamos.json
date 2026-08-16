@@ -1,0 +1,74 @@
+[
+  {
+    "id": "prest-001",
+    "titulo": "Préstamo de proyector para sustentación de grado",
+    "descripcion": "Necesito el proyector Epson para la sustentación del proyecto de grado en el aula 305 el viernes.",
+    "estudiante": {
+      "id": "est-20231456",
+      "nombre": "Valentina Ríos Mendoza",
+      "codigo": "20231456",
+      "programa": "Ingeniería de Sistemas"
+    },
+    "equipo": {
+      "tipo": "Proyector",
+      "id": "eq-proy-12",
+      "marca": "Epson",
+      "modelo": "PowerLite X49"
+    },
+    "creadoEn": "2026-08-12T15:40:00Z",
+    "estado": {
+      "tipo": "solicitado",
+      "solicitadoEn": "2026-08-12T15:40:00Z"
+    },
+    "adjuntos": []
+  },
+  {
+    "id": "prest-002",
+    "titulo": "Cámara para grabación de reportaje",
+    "descripcion": "Cámara Canon para grabar el reportaje del semillero de periodismo durante el fin de semana.",
+    "estudiante": {
+      "id": "est-20220891",
+      "nombre": "Andrés Felipe Castro",
+      "codigo": "20220891",
+      "programa": "Comunicación Social"
+    },
+    "equipo": {
+      "tipo": "Camara",
+      "id": "eq-cam-05",
+      "marca": "Canon",
+      "modelo": "EOS R50"
+    },
+    "creadoEn": "2026-08-08T11:15:00Z",
+    "estado": {
+      "tipo": "entregado",
+      "entregadoEn": "2026-08-08T14:30:00Z",
+      "entregadoPor": "tec-04"
+    },
+    "adjuntos": []
+  },
+  {
+    "id": "prest-003",
+    "titulo": "Micrófono Shure para grabación de podcast",
+    "descripcion": "Micrófono SM58 solicitado para grabar episodios del podcast estudiantil. Se devolvió con el cable dañado.",
+    "estudiante": {
+      "id": "est-20210934",
+      "nombre": "Camila Andrea Vargas",
+      "codigo": "20210934",
+      "programa": "Diseño Gráfico"
+    },
+    "equipo": {
+      "tipo": "Microfono",
+      "id": "eq-mic-03",
+      "marca": "Shure",
+      "modelo": "SM58"
+    },
+    "creadoEn": "2026-08-01T09:50:00Z",
+    "estado": {
+      "tipo": "vencido",
+      "fechaDevolucionEsperada": "2026-08-04T17:00:00Z",
+      "devueltoEn": "2026-08-06T12:45:00Z",
+      "motivo": "Devolución con 2 días de retraso y micrifini vuelto na"
+    },
+    "adjuntos": ["https://i.pinimg.com/1200x/5a/b0/e4/5ab0e401c37b763fc161582314b4e212.jpg"]
+  }
+]
